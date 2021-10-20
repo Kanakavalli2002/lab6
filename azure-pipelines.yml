@@ -11,6 +11,6 @@ steps:
 - task: CmdLine@2 
   inputs: 
         script: | 
-          javac Demo.Java 
+          javac Test.Java 
            
-          java Demo
+          java Test
